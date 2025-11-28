@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOOTBALL SIMPLE GAMES</title>
+    <!-- Load Font Awesome for icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <!-- Load Tailwind CSS via CDN - this is crucial for the styling to work -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Your custom styles -->
+    <link rel="stylesheet" href="style.css">
+    
+    <style>
+        /* Configure Tailwind to use the Inter font globally */
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-gray-200">
+    <div class="app-container flex flex-col">
+        <!-- Header -->
+        <header class="bg-slate-900 text-white p-4 sticky top-0 z-40 flex items-center justify-between shadow-lg border-b border-slate-800">
+            <button id="menu-toggle" class="text-2xl focus:outline-none hover:text-gray-300 transition">
+                <i class="fas fa-bars"></i>
+            </button>
+            <h1 class="text-lg font-extrabold tracking-wider bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400" id="header-title">FOOTBALL SIMPLE</h1>
+            <div class="w-6 text-center">
+                <i class="fas fa-futbol text-green-500"></i>
+            </div>
+        </header>
+
+        <!-- Sidebar Navigation (Drawer) -->
+        <div id="drawer-overlay" class="fixed inset-0 bg-black bg-opacity-60 z-40 hidden backdrop-blur-sm"></div>
+        <div id="drawer" class="fixed top-0 left-0 h-full w-64 bg-slate-800 shadow-2xl z-50 transform -translate-x-full transition-transform duration-300 ease-in-out drawer-closed">
+            <div class="p-5">
+                <div class="flex justify-between items-center mb-6">
+                    <h2 class="text-xl font-bold text-white">Menu</h2>
+                    <button id="close-drawer" class="text-white text-opacity-70 hover:text-white transition">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+                <!-- Navigation Links are added by script.js after DOM load -->
+                <nav id="nav-links" class="flex flex-col space-y-3">
+                    <!-- Links will be injected here -->
+                </nav>
+            </div>
+        </div>
+        
+        <!-- Main Content Area -->
+        <main id="content" class="flex-1 bg-gray-50 p-4 pb-24 overflow-y-auto min-h-[90vh]">
+            <!-- Content injected by JS -->
+        </main>
+        
+        <!-- Password Modal -->
+        <div id="password-modal" class="fixed inset-0 bg-black bg-opacity-70 z-50 flex items-center justify-center hidden">
+            <div class="bg-white rounded-2xl p-6 w-80 mx-4 shadow-2xl">
+                <div class="text-center mb-4">
+                    <i class="fas fa-lock text-3xl text-yellow-500 mb-2"></i>
+                    <h3 class="text-xl font-bold text-gray-800">VIP Access Required</h3>
+                    <p class="text-gray-600 text-sm mt-1">Enter password to view this content</p>
+                </div>
+                <input type="password" id="password-input" class="w-full p-3 border border-gray-300 rounded-lg mb-4 text-center font-bold" placeholder="Enter password">
+                <div class="flex gap-2">
+                    <button id="cancel-password" class="flex-1 py-3 bg-gray-200 text-gray-700 rounded-lg font-bold">Cancel</button>
+                    <button id="submit-password" class="flex-1 py-3 bg-yellow-500 text-white rounded-lg font-bold">Submit</button>
+                </div>
+                <p id="password-error" class="text-red-500 text-sm mt-3 text-center hidden">Incorrect password. Try again.</p>
+            </div>
+        </div>
+
+    </div>
+    
+    <!-- SCRIPT LOADING ORDER IS CRITICAL FOR ORGANIZATION: -->
+    <!-- 1. Data must be defined first -->
+    <script src="data.js"></script>
+    <!-- 2. View/Rendering functions must be defined next (they need the data) -->
+    <script src="views.js"></script>
+    <!-- 3. Core logic/Routing/Listeners must be defined last (they need the view functions) -->
+    <script src="script.js"></script>
+</body>
+</html>
+
