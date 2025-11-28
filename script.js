@@ -479,22 +479,22 @@ document.addEventListener('DOMContentLoaded', () => {
                     <h2 class="text-xl font-bold text-gray-800 mb-2">Customer Support</h2>
                     <p class="text-gray-500 mb-6 text-sm">Tap a platform below to contact us directly.</p>
                     <div class="space-y-3 text-left">
-                        <a href="https://t.me/UGAND_J" class="flex items-center p-4 bg-blue-50 rounded-xl border border-blue-100 hover:bg-blue-100 transition group">
+                        <a href="https://t.me/V2_0X1" class="flex items-center p-4 bg-blue-50 rounded-xl border border-blue-100 hover:bg-blue-100 transition group">
                             <div class="w-10 h-10 bg-blue-500 rounded-full flex items-center justify-center text-white mr-4 shadow-md group-hover:scale-110 transition">
                                 <i class="fab fa-telegram-plane"></i>
                             </div>
                             <div>
                                 <div class="text-[10px] text-blue-600 font-bold uppercase tracking-wider">Telegram</div>
-                                <div class="font-bold text-gray-800 text-sm">@UGAND_J</div>
+                                <div class="font-bold text-gray-800 text-sm">@V2_0X1</div>
                             </div>
                         </a>
-                        <a href="https://wa.me/256769344304" class="flex items-center p-4 bg-green-50 rounded-xl border border-green-100 hover:bg-green-100 transition group">
+                        <a href="https://wa.me/256745430208" class="flex items-center p-4 bg-green-50 rounded-xl border border-green-100 hover:bg-green-100 transition group">
                             <div class="w-10 h-10 bg-green-500 rounded-full flex items-center justify-center text-white mr-4 shadow-md group-hover:scale-110 transition">
                                 <i class="fab fa-whatsapp"></i>
                             </div>
                             <div>
                                 <div class="text-[10px] text-green-600 font-bold uppercase tracking-wider">Whatsapp</div>
-                                <div class="font-bold text-gray-800 text-sm">+256 769 344 304</div>
+                                <div class="font-bold text-gray-800 text-sm">+256745430208</div>
                             </div>
                         </a>
                         <a href="mailto:masterbetrealfixed@gmail.com" class="flex items-center p-4 bg-red-50 rounded-xl border border-red-100 hover:bg-red-100 transition group">
