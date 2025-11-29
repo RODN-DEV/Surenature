@@ -149,8 +149,8 @@ const gamesData = {
                     date: "29.11.2025",
                     teamA: "Mallorca",
                     teamB: "Osasuna",
-                    prediction: "BTTS: No",
-                    odds: "1.72",
+                    prediction: "BTTS: Yes",
+                    odds: "1.95",
                     status: "pending",
                     isLive: false
                 },
