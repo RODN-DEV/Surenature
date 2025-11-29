@@ -1,136 +1,169 @@
-// Game Data - This data object is made available globally
 const gamesData = {
-    free: [
-        {
-            league: "Bundesliga",
-            time: "22:30",
-            teamA: "Borrussia M",
-            teamB: "RB Leipzig",
-            prediction: "Away Win (2)", 
-            odds: "2.15",
-            status: "pending",
-            isLive: false
-        },
-        {
-            league: "Ligue 1",
-            time: "20:45",
-            teamA: "Metz",
-            teamB: "Rennes",
-            prediction: "Away Win (2)", 
-            odds: "1.95",
-            status: "pending",
-            isLive: false
-        }
-    ],
-    topSecret: [
-        {
-            league: "Championship",
-            date: "28.11.2025",
-            time: "TBA",
-            teamA: "Oxford United",
-            teamB: "Ipswich",
-            prediction: "Away Win (2)", 
-            odds: "1.57",
-            confidence: "62.4%",
-            status: "pending",
-            isLive: false
-        },
-        {
-            league: "La Liga",
-            date: "28.11.2025",
-            time: "TBA",
-            teamA: "Getafe",
-            teamB: "Elche",
-            prediction: "Home Win (1)", 
-            odds: "2.25",
-            confidence: "37.5%",
-            status: "pending",
-            isLive: false
-        }
-    ],
-    ultimate: [
-        {
-            league: "Eredivisie",
-            date: "28.11.2025",
-            time: "TBA",
-            teamA: "PEC Zwolle",
-            teamB: "Heerenveen",
-            prediction: "Away Win (2)", 
-            odds: "1.85",
-            confidence: "59.1%",
-            status: "pending",
-            isLive: false
-        },
-        {
-            league: "Primera División",
-            date: "28.11.2025",
-            time: "TBA",
-            teamA: "Cobresal",
-            teamB: "Colo Colo",
-            prediction: "Away Win (2)", 
-            odds: "2.20",
-            confidence: "47.0%",
-            status: "pending",
-            isLive: false
-        }
-    ],
-    overUnder: [
-        {
-            league: "Welsh Premier League",
-            date: "28.11.2025",
-            time: "TBA",
-            teamA: "The New Saints",
-            teamB: "Caernarfon Town",
-            prediction: "Over 2.5 Goals", 
-            odds: "1.83",
-            status: "pending",
-            isLive: false
-        },
-        {
-            league: "Qatar Stars League",
-            date: "28.11.2025",
-            time: "TBA",
-            teamA: "Al Shamal",
-            teamB: "Al Rayyan",
-            prediction: "Over 2.5 Goals", 
-            odds: "1.72",
-            status: "pending",
-            isLive: false
-        }
-    ],
-    btts: [
-        {
-            league: "German Regionalliga",
-            date: "28.11.2025",
-            time: "TBA",
-            teamA: "Oldenburg",
-            teamB: "Meppen",
-            prediction: "BTTS: Yes", 
-            odds: "1.78",
-            status: "pending",
-            isLive: false
-        },
-        {
-            league: "Dutch Eerste Divisie",
-            date: "28.11.2025",
-            time: "TBA",
-            teamA: "Den Bosch",
-            teamB: "Willem II",
-            prediction: "BTTS: Yes", 
-            odds: "1.75",
-            status: "pending",
-            isLive: false
-        },
-        {
-            league: "Dutch Eerste Divisie",
-            date: "28.11.2025",
-            time: "TBA",
-            teamA: "FC Emmen",
-            teamB: "Jong AZ",
-            prediction: "BTTS: Yes", 
-            odds: "1.70",
-            status: "pending",
-            isLive: false
-        }
-    ]
-};            
+            topSecret: [
+                {
+                    league: "Premier League",
+                    time: "18:00",
+                    date: "29.11.2025",
+                    teamA: "Man City",
+                    teamB: "Leeds United",
+                    prediction: "Home Win (1)",
+                    odds: "1.22",
+                    confidence: "91%",
+                    status: "pending",
+                    isLive: false,
+                    reason: "City unbeaten at Etihad this season; Leeds lost last 3 away."
+                },
+                {
+                    league: "Bundesliga",
+                    time: "17:30",
+                    date: "29.11.2025",
+                    teamA: "Bayern Munich",
+                    teamB: "St. Pauli",
+                    prediction: "Home Win & Over 2.5",
+                    odds: "1.45",
+                    confidence: "88%",
+                    status: "live",
+                    isLive: true,
+                    score: "1-0",
+                    reason: "Bayern averaging 3.5 goals/game at home."
+                },
+                {
+                    league: "Premier League",
+                    time: "18:00",
+                    date: "29.11.2025",
+                    teamA: "Sunderland",
+                    teamB: "Bournemouth",
+                    prediction: "Draw or Away (X2)",
+                    odds: "1.40",
+                    confidence: "75%",
+                    status: "pending",
+                    isLive: false,
+                    reason: "Sunderland struggling for goals; Bournemouth strong on counter."
+                }
+            ],
+            ultimate: [
+                {
+                    league: "Bundesliga",
+                    time: "20:30",
+                    date: "29.11.2025",
+                    teamA: "B. Leverkusen",
+                    teamB: "B. Dortmund",
+                    prediction: "BTTS: Yes",
+                    odds: "1.55",
+                    confidence: "82%",
+                    status: "pending",
+                    isLive: false,
+                    reason: "Last 5 H2H meetings saw both teams score."
+                },
+                {
+                    league: "Premier League",
+                    time: "20:00",
+                    date: "29.11.2025",
+                    teamA: "Everton",
+                    teamB: "Newcastle",
+                    prediction: "Over 2.5 Goals",
+                    odds: "1.85",
+                    confidence: "70%",
+                    status: "pending",
+                    isLive: false
+                },
+                {
+                    league: "La Liga",
+                    time: "23:00",
+                    date: "29.11.2025",
+                    teamA: "Barcelona",
+                    teamB: "Alaves",
+                    prediction: "Home Handicap (-1.5)",
+                    odds: "1.75",
+                    confidence: "78%",
+                    status: "pending",
+                    isLive: false
+                }
+            ],
+            free: [
+                {
+                    league: "NIFL Premiership",
+                    time: "Yesterday",
+                    date: "28.11.2025",
+                    teamA: "Bangor",
+                    teamB: "Glentoran",
+                    prediction: "Away Win (2)",
+                    odds: "1.65",
+                    status: "won",
+                    score: "0-2",
+                    isLive: false
+                },
+                {
+                    league: "Championship",
+                    time: "Yesterday",
+                    date: "28.11.2025",
+                    teamA: "Plymouth",
+                    teamB: "Northampton",
+                    prediction: "Under 2.5 Goals",
+                    odds: "1.80",
+                    status: "lost",
+                    score: "2-1",
+                    isLive: false
+                },
+                {
+                    league: "Premier League",
+                    time: "18:00",
+                    date: "29.11.2025",
+                    teamA: "Brentford",
+                    teamB: "Burnley",
+                    prediction: "Home Win (1)",
+                    odds: "1.95",
+                    status: "pending",
+                    isLive: false
+                }
+            ],
+            overUnder: [
+                {
+                    league: "Premier League",
+                    time: "23:00",
+                    date: "29.11.2025",
+                    teamA: "Tottenham",
+                    teamB: "Fulham",
+                    prediction: "Over 2.5 Goals",
+                    odds: "1.62",
+                    status: "pending",
+                    isLive: false
+                },
+                {
+                    league: "Bundesliga",
+                    time: "17:30",
+                    date: "29.11.2025",
+                    teamA: "Hoffenheim",
+                    teamB: "Augsburg",
+                    prediction: "Over 3.5 Goals",
+                    odds: "2.20",
+                    status: "live",
+                    score: "1-1",
+                    isLive: true
+                }
+            ],
+            btts: [
+                {
+                    league: "La Liga",
+                    time: "20:30",
+                    date: "29.11.2025",
+                    teamA: "Mallorca",
+                    teamB: "Osasuna",
+                    prediction: "BTTS: No",
+                    odds: "1.72",
+                    status: "pending",
+                    isLive: false
+                },
+                {
+                    league: "Serie A",
+                    time: "22:45",
+                    date: "29.11.2025",
+                    teamA: "AC Milan",
+                    teamB: "Lazio",
+                    prediction: "BTTS: Yes",
+                    odds: "1.68",
+                    status: "pending",
+                    isLive: false
+                }
+            ]
+        };
