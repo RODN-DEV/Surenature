@@ -7,9 +7,9 @@ const gamesData = {
             teamA: "Crystal Palace",
             teamB: "Manchester United",
             prediction: "Manchester United to win",
-            odds: "1.75",
+            odds: "3.55",
             confidence: "88%",
-            status: "pending",
+            status: "won",
             isLive: false
         },
         {
@@ -121,7 +121,7 @@ const gamesData = {
             prediction: "Kashima Antlers to win",
             odds: "1.65",
             confidence: "77%",
-            status: "pending",
+            status: "won",
             isLive: false
         }
     ],
