@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const closeDrawerBtn = document.getElementById('close-drawer');
 
     // 2. App State
-    const validPasswords = ['12300', '12400', '12500'];
+    const validPasswords = ['rtechug', 'modhub', 'modhublte'];
     const vipViews = ['top-secret', 'ultimate', 'over-under', 'btts'];
     let isAuthenticated = false;
     let currentView = 'home';
