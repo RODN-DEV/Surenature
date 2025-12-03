@@ -1,6 +1,42 @@
 const gamesData = {
     topSecret: [
         {
+            league: "South Africa PSL",
+            time: "19:30",
+            date: "03.12.2025",
+            teamA: "Stellenbosch FC",
+            teamB: "Polokwane City",
+            prediction: "Home Win",
+            odds: "1.72",
+            confidence: "78%",
+            status: "pending",
+            isLive: false
+        },
+        {
+            league: "Coppa Italia",
+            time: "21:00",
+            date: "03.12.2025",
+            teamA: "Inter Milan",
+            teamB: "Venezia",
+            prediction: "Home Win",
+            odds: "1.25",
+            confidence: "85%",
+            status: "pending",
+            isLive: false
+        },
+        {
+            league: "DFB Pokal",
+            time: "18:00",
+            date: "03.12.2025",
+            teamA: "VfL Bochum",
+            teamB: "VfB Stuttgart",
+            prediction: "Away Win",
+            odds: "1.65",
+            confidence: "76%",
+            status: "pending",
+            isLive: false
+        },
+        {
             league: "Premier League",
             time: "19:30",
             date: "02.12.2025",
@@ -50,6 +86,68 @@ const gamesData = {
         }
     ],
     ultimate: [
+             {
+            league: "Scotland Premiership",
+            time: "19:45",
+            date: "03.12.2025",
+            teamA: "Aberdeen",
+            teamB: "St Mirren",
+            prediction: "Home Win",
+            odds: "1.85",
+            confidence: "82%",
+            status: "pending",
+            isLive: false
+        },
+        {
+            league: "DFB Pokal",
+            time: "18:00",
+            date: "03.12.2025",
+            teamA: "SC Freiburg",
+            teamB: "Darmstadt 98",
+            prediction: "Home Win -1.0 Handicap",
+            odds: "1.95",
+            confidence: "80%",
+            status: "pending",
+            isLive: false
+        },
+        {
+            league: "ASEAN Shopee Cup",
+            time: "20:00",
+            date: "03.12.2025",
+            teamA: "Selangor",
+            teamB: "Tampines Rovers",
+            prediction: "Home Win",
+            odds: "1.65",
+            confidence: "81%",
+            status: "pending",
+            isLive: false
+        }
+    ], 
+    free: [
+        {
+            league: "South Africa PSL",
+            time: "19:30",
+            date: "03.12.2025",
+            teamA: "Stellenbosch FC",
+            teamB: "Polokwane City",
+            prediction: "Home Win",
+            odds: "1.72",
+            confidence: "78%",
+            status: "pending",
+            isLive: false
+        },
+        {
+            league: "Coppa Italia",
+            time: "21:00",
+            date: "03.12.2025",
+            teamA: "Inter Milan",
+            teamB: "Venezia",
+            prediction: "Home Win",
+            odds: "1.25",
+            confidence: "85%",
+            status: "pending",
+            isLive: false
+        },
         {
             league: "Championship",
             time: "19:45",
@@ -89,6 +187,42 @@ const gamesData = {
     ],
     free: [
         {
+            {
+            league: "Scotland Premiership",
+            time: "19:45",
+            date: "03.12.2025",
+            teamA: "Celtic",
+            teamB: "Dundee FC",
+            prediction: "Home Win & Over 1.5 Goals",
+            odds: "1.28",
+            confidence: "96%",
+            status: "pending",
+            isLive: false
+        },
+        {
+            league: "ASEAN Shopee Cup",
+            time: "19:00",
+            date: "03.12.2025",
+            teamA: "Buriram United",
+            teamB: "Cong An Ha Noi",
+            prediction: "Home Win",
+            odds: "1.40",
+            confidence: "92%",
+            status: "pending",
+            isLive: false
+        },
+        {
+            league: "Coppa Italia",
+            time: "15:00",
+            date: "03.12.2025",
+            teamA: "Atalanta",
+            teamB: "Genoa",
+            prediction: "Home Win",
+            odds: "1.42",
+            confidence: "89%",
+            status: "pending",
+            isLive: false
+        },
             league: "Premier League",
             time: "20:15",
             date: "02.12.2025",
@@ -126,6 +260,42 @@ const gamesData = {
         }
     ],
     overUnder: [
+        {
+            league: "Premier League",
+            time: "20:15",
+            date: "03.12.2025",
+            teamA: "Liverpool",
+            teamB: "Sunderland",
+            prediction: "Over 3.5 Goals",
+            odds: "2.10",
+            confidence: "80%",
+            status: "pending",
+            isLive: false
+        },
+        {
+            league: "Premier League",
+            time: "20:15",
+            date: "03.12.2025",
+            teamA: "Leeds United",
+            teamB: "Chelsea",
+            prediction: "Over 2.5 Goals",
+            odds: "1.70",
+            confidence: "78%",
+            status: "pending",
+            isLive: false
+        },
+        {
+            league: "Premier League",
+            time: "19:30",
+            date: "03.12.2025",
+            teamA: "Arsenal",
+            teamB: "Brentford",
+            prediction: "Over 2.5 Goals",
+            odds: "1.55",
+            confidence: "81%",
+            status: "pending",
+            isLive: false
+        }, 
         
         {
             league: "Premier League",
@@ -177,6 +347,54 @@ const gamesData = {
         }
     ],
     btts: [
+        {
+            league: "Premier League",
+            time: "19:30",
+            date: "03.12.2025",
+            teamA: "Brighton",
+            teamB: "Aston Villa",
+            prediction: "BTTS: Yes",
+            odds: "1.50",
+            confidence: "85%",
+            status: "pending",
+            isLive: false
+        },
+        {
+            league: "La Liga",
+            time: "21:00",
+            date: "03.12.2025",
+            teamA: "Athletic Bilbao",
+            teamB: "Real Madrid",
+            prediction: "BTTS: Yes",
+            odds: "1.72",
+            confidence: "76%",
+            status: "pending",
+            isLive: false
+        },
+        {
+            league: "DFB Pokal",
+            time: "20:45",
+            date: "03.12.2025",
+            teamA: "Union Berlin",
+            teamB: "Bayern Munich",
+            prediction: "BTTS: Yes",
+            odds: "1.80",
+            confidence: "74%",
+            status: "pending",
+            isLive: false
+        },
+        {
+            league: "Premier League",
+            time: "19:30",
+            date: "03.12.2025",
+            teamA: "Burnley",
+            teamB: "Crystal Palace",
+            prediction: "BTTS: No",
+            odds: "1.95",
+            confidence: "73%",
+            status: "pending",
+            isLive: false
+            },
         {
             league: "La Liga",
             time: "21:00",
