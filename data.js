@@ -9,7 +9,7 @@ const gamesData = {
             prediction: "Away Win",
             odds: "1.45",
             confidence: "89%",
-            status: "pending",
+            status: "won",
             isLive: false
         },
         {
@@ -21,7 +21,7 @@ const gamesData = {
             prediction: "Home Win",
             odds: "1.80",
             confidence: "87%",
-            status: "pending",
+            status: "won",
             isLive: false
         },
         {
@@ -33,7 +33,7 @@ const gamesData = {
             prediction: "Home Win (-1.5 AH)",
             odds: "1.85",
             confidence: "91%",
-            status: "pending",
+            status: "won",
             isLive: false
         },
         {
@@ -45,7 +45,7 @@ const gamesData = {
             prediction: "Home Win",
             odds: "1.55",
             confidence: "88%",
-            status: "pending",
+            status: "won",
             isLive: false
         }
     ],
@@ -59,7 +59,7 @@ const gamesData = {
             prediction: "Away Win",
             odds: "2.10",
             confidence: "78%",
-            status: "pending",
+            status: "lost",
             isLive: false
         },
         {
@@ -71,7 +71,7 @@ const gamesData = {
             prediction: "Bayer Leverkusen (Draw No Bet)",
             odds: "1.80",
             confidence: "76%",
-            status: "pending",
+            status: "won",
             isLive: false
         },
         {
@@ -83,7 +83,7 @@ const gamesData = {
             prediction: "Home Win",
             odds: "1.95",
             confidence: "75%",
-            status: "pending",
+            status: "won",
             isLive: false
         }
     ],
@@ -97,7 +97,7 @@ const gamesData = {
             prediction: "Over 2.5 Goals",
             odds: "1.50",
             confidence: "82%",
-            status: "pending",
+            status: "won",
             isLive: false
         },
         {
@@ -109,7 +109,7 @@ const gamesData = {
             prediction: "BTTS - Yes",
             odds: "1.83",
             confidence: "77%",
-            status: "pending",
+            status: "lost",
             isLive: false
         },
         {
@@ -121,23 +121,12 @@ const gamesData = {
             prediction: "Home Win",
             odds: "2.10",
             confidence: "74%",
-            status: "pending",
+            status: "lost",
             isLive: false
         }
     ],
     overUnder: [
-        {
-            league: "DFB Pokal",
-            time: "20:45",
-            date: "02.12.2025",
-            teamA: "Borussia Dortmund",
-            teamB: "Bayer Leverkusen",
-            prediction: "Over 2.5 Goals",
-            odds: "1.60",
-            confidence: "80%",
-            status: "pending",
-            isLive: false
-        },
+        
         {
             league: "Premier League",
             time: "19:30",
@@ -147,7 +136,7 @@ const gamesData = {
             prediction: "Over 2.5 Goals",
             odds: "1.55",
             confidence: "79%",
-            status: "pending",
+            status: "won",
             isLive: false
         },
         {
@@ -159,7 +148,7 @@ const gamesData = {
             prediction: "Over 2.5 Goals",
             odds: "1.90",
             confidence: "75%",
-            status: "pending",
+            status: "won",
             isLive: false
         },
         {
@@ -171,7 +160,7 @@ const gamesData = {
             prediction: "Over 2.5 Goals",
             odds: "1.70",
             confidence: "76%",
-            status: "pending",
+            status: "won",
             isLive: false
         },
         {
@@ -183,7 +172,7 @@ const gamesData = {
             prediction: "Over 3.5 Goals",
             odds: "2.20",
             confidence: "72%",
-            status: "pending",
+            status: "won",
             isLive: false
         }
     ],
@@ -197,7 +186,7 @@ const gamesData = {
             prediction: "BTTS - Yes",
             odds: "1.60",
             confidence: "82%",
-            status: "pending",
+            status: "won",
             isLive: false
         },
         {
@@ -209,7 +198,7 @@ const gamesData = {
             prediction: "BTTS - Yes",
             odds: "1.45",
             confidence: "88%",
-            status: "pending",
+            status: "won",
             isLive: false
         },
         {
@@ -221,7 +210,7 @@ const gamesData = {
             prediction: "BTTS - Yes",
             odds: "1.65",
             confidence: "78%",
-            status: "pending",
+            status: "won",
             isLive: false
         },
         {
@@ -233,7 +222,7 @@ const gamesData = {
             prediction: "BTTS - Yes",
             odds: "1.83",
             confidence: "77%",
-            status: "pending",
+            status: "lost",
             isLive: false
         }
     ]
