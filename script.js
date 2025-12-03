@@ -424,7 +424,7 @@ document.addEventListener('DOMContentLoaded', () => {
         let html = `<div class="bg-amber-50 min-h-full p-4 -m-4 fade-in pb-24">`;
         html += `<div class="bg-orange-600 text-white text-center py-3 rounded-t-lg mb-4 shadow-md font-bold text-lg tracking-wider">BOTH TEAMS TO SCORE</div>`;
 
-        if (typeof gamesData !== 'undefined' && gamesData.btts) {
+        if (typeof gamesData !== 'won' && gamesData.btts) {
             gamesData.btts.forEach(game => {
                 const isWon = game.status === 'won';
                 html += `
